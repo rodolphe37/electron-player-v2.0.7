@@ -1,0 +1,25 @@
+{
+  "name": "electronplayer",
+  "version": "2.0.7",
+  "description": "An Electron Based Web Video Services Player. Supporting Netflix, Youtube, Twitch And More",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo 'TODO: Tests'",
+    "build": "electron-builder -c ./build/electron-builder.yml -p never"
+  },
+  "repository": "https://github.com/rodolphe37/electron-player-v1.git",
+  "author": "Rodolphe Augusto",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.2.4",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "@cliqz/adblocker-electron": "^1.2.0",
+    "electron-prompt": "^1.3.1",
+    "electron-store": "^5.0.0",
+    "electron-widevinecdm": "./electron-widevinecdm",
+    "node-fetch": "^2.6.0"
+  }
+}
