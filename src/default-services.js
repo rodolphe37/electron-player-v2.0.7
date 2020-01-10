@@ -46,5 +46,13 @@ module.exports = [
     color: '#46ABE2',
     style: {},
     permissions: []
-  }
+  },
+  {
+    name: 'DailyMotion',
+    logo: 'services/dailymotion-2.svg',
+    url: 'https://www.dailymotion.com/fr',
+    color: '#e50914',
+    style: {},
+    permissions: []
+  },
 ];
