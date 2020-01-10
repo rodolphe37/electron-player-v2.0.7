@@ -28,7 +28,7 @@ if (process.platform == 'darwin') {
 async function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 890,
+    width: 1200,
     height: 600,
     webPreferences: {
       nodeIntegration: false,

@@ -1,5 +1,7 @@
 ## ElectronPlayer
 
+inspiration by Oscar Beaumont.
+
 An Electron Based Web Video Services Player. Supporting Netflix, Youtube, Twitch, Amazon Prime Video And More.
 
 ![ElectronPlayer Menu](docs/ElectronPlayer.png)
