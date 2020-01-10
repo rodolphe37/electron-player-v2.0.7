@@ -46,7 +46,7 @@ module.exports = (store, services, mainWindow, app) => {
       label: 'ElectronPlayer',
       submenu: [
         { label: 'ElectronPlayer (' + app.getVersion() + ')', enabled: false },
-        { label: 'Created By Oscar Beaumont', enabled: false },
+        { label: 'Created By rodolphe Augusto', enabled: false },
         {
           label: 'Quit ElectronPlayer',
           accelerator: 'Command+Q', // TODO: Non Mac Shortcut
@@ -288,7 +288,7 @@ module.exports = (store, services, mainWindow, app) => {
           label: 'More Information',
           click() {
             shell.openExternal(
-              'http://github.com/oscartbeaumont/ElectronPlayer'
+              'https://github.com/rodolphe37/electron-player-v1'
             );
           }
         }
