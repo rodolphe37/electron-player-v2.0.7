@@ -55,4 +55,14 @@ module.exports = [
     style: {},
     permissions: []
   },
+  {
+    name: 'OCS',
+    logo: 'https://www.ocs.fr/themes/ocs/img/OCS_ss_baseline.png',
+    url: 'https://www.ocs.fr/',
+    color: '#e50914',
+    style: {},
+    permissions: []
+  }
 ];
+
+
