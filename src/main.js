@@ -15,7 +15,7 @@ const headerScript = fs.readFileSync(
   'utf8'
 );
 
-// Create Global Varibles
+// Create Global Variables
 let mainWindow; // Global Windows Object
 const menu = require('./menu');
 const store = new Store();
@@ -95,7 +95,7 @@ async function createWindow() {
     );
   }
 
-  // Configire Picture In Picture
+  // Configure Picture In Picture
   if (store.get('options.pictureInPicture') && process.platform === 'darwin') {
     app.dock.hide();
     mainWindow.setAlwaysOnTop(true, 'floating');
